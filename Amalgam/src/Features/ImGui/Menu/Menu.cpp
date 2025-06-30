@@ -73,10 +73,10 @@ void CMenu::DrawMenu()
 		PushFont(F::Render.FontBold);
 		FTabs(
 			{
-				{ "AIMBOT", "GENERAL", "HVH", "DRAW" },
-				{ "VISUALS", "ESP", "CHAMS", "GLOW", "MISC##", "RADAR", "MENU" },
+				{ "DEADEYE", "GENERAL", "DUEL", "DRAW" },
+				{ "VISUALS", "INSTINCT", "HEAT", "GLOW", "MISC##", "RADAR", "BOOK" },
 				{ "MISC" },
-				{ "LOGS", "PLAYERLIST", "SETTINGS##", "OUTPUT" },
+				{ "LOGS", "DEBTLIST", "SETTINGS##", "OUTPUT" },
 				{ "SETTINGS", "CONFIG", "BINDS", "MATERIALS", "EXTRA" }
 			},
 			{ &iTab, &iAimbotTab, &iVisualsTab, nullptr, &iLogsTab, &iSettingsTab },
